@@ -1,0 +1,19 @@
+{
+  "name": "node_cli",
+  "version": "1.0.0",
+  "description": "node js script appp",
+  "main": "bin/index.js",
+  "bin": {
+    "greet": "./bin/index.js",
+    "sum" : "./bin/sum.js",
+    "list": "./bin/list.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "13.2"
+  }
+}
