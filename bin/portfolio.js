@@ -118,14 +118,14 @@ parseStream.on("finish", async () => {
       const BTCsum = BTCvalues.reduce((a, b) => a + b, 0);
       console.log("TOTAL BTC", BTCsum);
       const USDBTC = await toUSD(BTCsum, "BTC");
-      console.log("TOTAL BTC", USDBTC);
+      console.log("TOTAL BTC in USD", USDBTC);
     }
 
     if (token == "ETH") {
       const ETHsum = ETHvalues.reduce((a, b) => a + b, 0);
       console.log("TOTAL ETH", ETHsum);
       const USDETH = await toUSD(ETHsum, "ETH");
-      console.log("TOTAL ETH", USDETH);
+      console.log("TOTAL ETH in USD", USDETH);
     }
 
     if (token == "XRP") {
