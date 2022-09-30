@@ -1,7 +1,7 @@
 {
-  "name": "node_cli",
+  "name": "crypto_cli",
   "version": "1.0.0",
-  "description": "node js script appp",
+  "description": "node js script app",
   "main": "bin/index.js",
   "bin": {
     "crypto": "./bin/portfolio.js"
